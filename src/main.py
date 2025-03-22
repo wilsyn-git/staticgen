@@ -1,7 +1,7 @@
-import textnode
+from textnode import TextNode, TextType
 
 def main():
-    basic_thing = textnode.TextNode("this is some anchor text", "stuff", "Some")
+    basic_thing = TextNode("this is some anchor text", TextType.LINK, "https://www.boot.dev")
 
     print("hello world")
     print(basic_thing)
