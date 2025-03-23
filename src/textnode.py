@@ -1,6 +1,5 @@
 from htmlnode import LeafNode
 from enum import Enum
-import typing_extensions
 
 class TextType(Enum):
     TEXT = "text"
